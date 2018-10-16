@@ -1,0 +1,19 @@
+{
+  "name": "react-virtual-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yt1520406335/react-virtual-list.git"
+  },
+  "author": "yt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yt1520406335/react-virtual-list/issues"
+  },
+  "homepage": "https://github.com/yt1520406335/react-virtual-list#readme"
+}
