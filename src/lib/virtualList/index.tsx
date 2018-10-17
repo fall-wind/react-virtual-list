@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { VListProps, VListState, VListItemProps } from './types';
 
-require('./index.styl');
+import './index.css';
 
 const defaultProps = {
     rowHeight: 30,
