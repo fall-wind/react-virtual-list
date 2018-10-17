@@ -90,10 +90,5 @@
   "bugs": {
     "url": "https://github.com/yt1520406335/react-virtual-list/issues"
   },
-  "homepage": "https://github.com/yt1520406335/react-virtual-list#readme",
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  "homepage": "https://github.com/yt1520406335/react-virtual-list#readme"
 }
