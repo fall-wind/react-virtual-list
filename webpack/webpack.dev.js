@@ -13,7 +13,7 @@ module.exports = merge(common, {
         `webpack-dev-server/client?http://127.0.0.1:${config.port}`,
         // 'webpack/hot/only-dev-server',
         'webpack/hot/dev-server',
-        path.join(__dirname, '../src/demo/index.tsx'),
+        path.join(__dirname, '../src/demo/index.js'),
         // '../src/index.js',
     ],
     output: {

@@ -66,13 +66,17 @@ class VirtualList extends React.Component<VListProps, VListState> {
                 startIndex,
                 stopIndex,
             },
-            () => {
-                if (this.contentRef) {
-                    this.contentRef.style.webkitTransform = `translate3d(0, ${startIndex *
-                        defaultProps.rowHeight}px, 0)`;
-                }
-            }
+            // () => {
+            //     if (this.contentRef) {
+            //         this.contentRef.style.webkitTransform = `translate3d(0, ${startIndex *
+            //             defaultProps.rowHeight}px, 0)`;
+            //     }
+            // }
         );
+        if (this.contentRef) {
+            this.contentRef.style.webkitTransform = `translate3d(0, ${startIndex *
+                defaultProps.rowHeight}px, 0)`;
+        }
     };
 
     onScroll = (e: any) => {

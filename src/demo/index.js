@@ -1,11 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import SimpleList from './simpleList'
+import App from './app'
 
-function App() {
-    return <div>
-        <SimpleList />
-    </div>
-}
+import './index.css'
 
 ReactDOM.render(<App />, document.getElementById('app'))
